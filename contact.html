@@ -6,6 +6,7 @@
     <title>CONTACT</title>
     <link rel="icon" type="image/x-icon" href="Media/images/favicon_io/favicon.ico">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/contact.styles.css">
 </head>
 <body>
     <!---header with nav-->
@@ -18,11 +19,39 @@
             </ul>
         </nav>
     </header>
+
+    <form action="Thank_You.html" method="post">
+    <div id="innerForm"></div>
+        <h1 id="heading">Contact Us</h1>
+        <label>First Name:</label>
+        <input type="text" id="FirstName">
+        <br>
+        <label>Last Name:</label>
+        <input type="text" id="LastName">
+        <br>
+        <label>Email:</label>
+        <input type="email" id="Email">
+        <br>
+        <label>Number:</label>
+        <input type="text" id="Number">
+        <br>
+        <p>Comments: </p>
+        <textarea rows="18" cols="40" id="comment" placeholder="Enter your comment here..."></textarea>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+
+
+
+    </form>
+
      <footer>
         <div id="col1">
             <h3>Social Media</h3>
-            <img src="media/images/instagram.png" alt="Company's Instgram Link" width="40" height="40">
-            <img src="media/images/tik-tok.png" alt="Company's TikTok Link" width="40" height="40">
+            <a href="https://www.instagram.com/snap.shotsbyalexis/">
+            <img src="Media/images/instagram.png" alt="Instagram Link" style="width:42px;height:42px;">
+            </a>
         </div>
         <div id="col2">
             <h3>Business Hours</h3>
@@ -31,5 +60,6 @@
             <p>Sunday: Closed</p>
         </div>
     </footer>
+    <script src="JS/Script.js"></script>
 </body>
 </html>

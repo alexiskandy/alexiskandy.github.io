@@ -1,8 +1,8 @@
 :root {
-    --bgcolor: #2b2b2b;
-    --txtcolor: #e319aa;
-    --secondary: #000000;
-    --third: #5a5b5f;
+    --bgcolor: #265999;
+    --txtcolor: #D5AD36;
+    --secondary: #0b2443;
+    --third: #F9AB55;
 }
 body {
     margin: 0;
@@ -43,7 +43,7 @@ header nav ul li a:visited {
 header nav ul li a:hover {
     text-decoration: none;
     color: var(--txtcolor);
-    background-color: var(--secondary);
+    background-color: var(--secondary) !important;
 }
 
 header nav ul li a:active {

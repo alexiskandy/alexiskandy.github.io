@@ -1,0 +1,13 @@
+body {
+    display:plex;
+    margin: 0;
+}
+
+form {
+    border: 4px solid #061a32;
+    margin: 0px;
+    border: 4px solid #061a32;
+    align-items: center;
+    justify-content: center;
+    background-color: #061a32;
+}

@@ -1,0 +1,26 @@
+header {
+    position: sticky !important;
+}
+h1{
+    text-align: center;
+}
+
+#employee {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#employee img {
+    width:500px;
+    height:500px;
+    border-radius:20px;
+}
+
+a {
+    outline: 2px soild red;
+}
+
+#col1 a {
+    display: inline-block;
+    margin-right: 10px;
+}
